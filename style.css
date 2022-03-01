@@ -1,0 +1,303 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  position: relative;
+  vertical-align: top;
+  letter-spacing: 0.8px;
+  font-family: 微軟正黑體;
+  font-size: 13px;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.resume {
+  height: 842px;
+  width: 595px;
+  border-bottom: solid 8px;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 1px;
+}
+
+.header {
+  height: 15%;
+  width: 100%;
+  display: inline-block;
+  border: none;
+  background-color: #61666b;
+  color: white;
+}
+.header .kaka {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin-left: 50px;
+  margin-top: 3px;
+  float: left;
+  display: block;
+}
+.header .name {
+  display: block;
+  float: right;
+  margin-right: 60px;
+  margin-top: 2px;
+  text-align: center;
+}
+.header h2 {
+  letter-spacing: 30px;
+  text-indent: 30px;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 23px;
+}
+.header h5 {
+  letter-spacing: 5px;
+  text-indent: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.main {
+  width: 100%;
+}
+.main h5 {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-bottom: solid 3px #DDD169;
+  display: inline-block;
+  font-size: 15px;
+}
+.main .left {
+  height: 715.7px;
+  width: 35%;
+  display: inline-block;
+  background-color: rgba(211, 211, 211, 0.2);
+  padding: 0 20px;
+}
+.main .left .personal {
+  margin-top: 80px;
+}
+.main .left .personal p {
+  margin-top: 0;
+  margin-bottom: 5px;
+  border-bottom: solid 1px;
+}
+.main .left .contact h5 {
+  margin-top: 50px;
+}
+.main .left .contact i,
+.main .left .contact p {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  border-bottom: solid 1px;
+}
+.main .left .contact i {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 5px;
+  color: #DDD169;
+  border: none;
+}
+.main .left .contact .fa.fa-home.fa-lg {
+  bottom: 8px;
+  margin-left: 3px;
+}
+.main .left .contact p {
+  margin-left: 30px;
+}
+.main .left .reference h5 {
+  margin-top: 50px;
+}
+.main .left .reference i,
+.main .left .reference .refer_name {
+  display: inline-block;
+  border-bottom: solid 1px;
+}
+.main .left .reference i {
+  position: absolute;
+  bottom: 9%;
+  left: 5px;
+  border: none;
+  color: #DDD169;
+}
+.main .left .reference .refer_name {
+  margin-left: 30px;
+}
+.main .left .reference .refer_name p {
+  margin: 0;
+}
+.main .right {
+  width: 65%;
+  display: inline-block;
+  padding: 20px;
+}
+.main .right .profile h5 {
+  margin-top: 10px;
+}
+.main .right .profile .hello {
+  margin-top: 0;
+}
+.main .right .profile .circle_pic {
+  width: 70px;
+  height: 70px;
+  bottom: -10;
+}
+.main .right .profile .circle_pic .circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: #61666b;
+  position: absolute;
+  overflow: hidden;
+}
+.main .right .profile .circle_pic .square {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: -35px;
+  top: -35px;
+  background-color: #ddd169;
+}
+.main .right .profile .circle_pic .square2 {
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+}
+.main .right .profile .circle_pic .square3 {
+  transform: rotate(180deg);
+  transform-origin: bottom left;
+}
+.main .right .profile .circle_pic .square4 {
+  transform: rotate(230deg);
+  transform-origin: bottom left;
+}
+.main .right .profile .circle_pic .square5 {
+  transform: rotate(270deg);
+  transform-origin: bottom left;
+}
+.main .right .profile .circle_pic p {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.circle_pic.pic1 {
+  position: absolute;
+  left: 3px;
+}
+
+.circle_pic.pic2 {
+  position: absolute;
+  left: 100px;
+}
+
+.circle_pic.pic3 {
+  position: absolute;
+  left: 196px;
+}
+
+.circle_pic.pic4 {
+  position: absolute;
+  left: 285px;
+}
+
+.experience {
+  margin-top: 140px;
+}
+.experience h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.timeline {
+  margin-top: 0;
+  padding-top: 0;
+}
+.timeline ul, .timeline li {
+  list-style: none;
+  padding: 0;
+}
+.timeline .life {
+  position: relative;
+}
+.timeline .life li {
+  padding-bottom: 15px;
+  border-left: 1px solid #61666B;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+.timeline .life li:last-child {
+  padding-bottom: 0;
+}
+.timeline .life li:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: solid 1px;
+  box-shadow: 3px 3px 0px #DDD169;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+}
+.timeline .life li p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.timeline .life li b {
+  font-size: 14px;
+}
+
+.skills h5 {
+  margin-top: 10px;
+}
+.skills .line {
+  position: absolute;
+  overflow: hidden;
+}
+.skills .line p {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.skills .line .down_line {
+  width: 150px;
+  height: 15px;
+  margin-top: 5px;
+  background-color: #61666B;
+}
+.skills .line .upperline {
+  width: 150px;
+  height: 15px;
+  background-color: #DDD169;
+}
+.skills .line1 {
+  left: 15px;
+}
+.skills .line2 {
+  left: 15px;
+  top: 50px;
+}
+.skills .line3 {
+  right: 15px;
+}
+.skills .line4 {
+  right: 15px;
+  top: 50px;
+}
+.skills .upp2 {
+  position: absolute;
+  right: 75%;
+}
+.skills .upp3 {
+  position: absolute;
+  right: 10%;
+}
+.skills .upp4 {
+  position: absolute;
+  right: 80%;
+}
